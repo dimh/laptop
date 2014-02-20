@@ -38,13 +38,13 @@ Install
 
 Read, then run the script:
 
-    bash <(curl -s https://raw.github.com/thoughtbot/laptop/master/mac)
+    bash <(curl -s https://raw.github.com/dimh/laptop/master/mac)
 
 ### Linux
 
 Read, then run the script:
 
-    bash <(wget -qO- https://raw.github.com/thoughtbot/laptop/master/linux)
+    bash <(wget -qO- https://raw.github.com/dimh/laptop/master/linux)
 
 What it sets up
 ---------------
@@ -53,11 +53,10 @@ What it sets up
 * Bundler gem for managing Ruby libraries
 * Exuberant Ctags for indexing files for vim tab completion
 * Foreman gem for serving Rails apps locally
-* Heroku Config plugin for local `ENV` variables
-* Heroku Toolbelt for interacting with the Heroku API
 * Hub gem for interacting with the GitHub API
 * Homebrew for managing operating system libraries (OS X only)
 * ImageMagick for cropping and resizing images
+* MySQL for store relational data
 * Postgres for storing relational data
 * Qt for headless JavaScript testing via Capybara Webkit
 * Rails gem for writing web applications
