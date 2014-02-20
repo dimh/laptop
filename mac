@@ -63,6 +63,9 @@ fancy_echo "Installing Postgres, a good open source relational database ..."
 
 fancy_echo "Installing Redis, a good key-value database ..."
   brew install redis
+  
+dancy_echo "Installing Redis, a most popular open source relational databse"
+  brew install mysql
 
 fancy_echo "Installing The Silver Searcher (better than ack or grep) to search the contents of files ..."
   brew install the_silver_searcher
@@ -147,16 +150,4 @@ fancy_echo "Configuring Bundler for faster, parallel gem installation ..."
 fancy_echo "Installing Rails ..."
   gem install rails --no-document
 ### end common-components/default-gems
-
-fancy_echo "Installing Heroku CLI client ..."
-  brew install heroku-toolbelt
-
-fancy_echo "Installing the heroku-config plugin to pull config variables locally to be used as ENV variables ..."
-  heroku plugins:install git://github.com/ddollar/heroku-config.git
-### end mac-components/heroku
-
-fancy_echo "Installing rcm, to manage your dotfiles ..."
-  brew tap thoughtbot/formulae
-  brew install rcm
-### end mac-components/rcm
 
