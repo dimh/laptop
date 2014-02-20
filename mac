@@ -64,7 +64,7 @@ fancy_echo "Installing Postgres, a good open source relational database ..."
 fancy_echo "Installing Redis, a good key-value database ..."
   brew install redis
   
-dancy_echo "Installing Redis, a most popular open source relational databse"
+fancy_echo "Installing Redis, a most popular open source relational databse"
   brew install mysql
 
 fancy_echo "Installing The Silver Searcher (better than ack or grep) to search the contents of files ..."
